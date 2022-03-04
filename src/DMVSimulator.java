@@ -1,4 +1,25 @@
 
 public class DMVSimulator {
 
+	public static void main(String[] args) {
+		int userNumber = (int)(Math.random() * 100 + 1);
+		System.out.println("Welcome to the DMV. \nYour number is " + userNumber + 
+				". \nPlease wait until your number is called.");
+		
+		int currentNumber = userNumber + 1;
+		while (!(currentNumber == userNumber)) {
+			if (currentNumber <= 100) {
+				System.out.println("Calling number " + currentNumber);
+				currentNumber++;
+			}
+			else {
+				currentNumber = 1;
+				System.out.println("Calling number " + currentNumber);
+				currentNumber++;
+			}
+		}
+		System.out.println("Calling number " + userNumber);
+		System.out.println("You do not have the required paperwork.");
+		
+	}
 }
