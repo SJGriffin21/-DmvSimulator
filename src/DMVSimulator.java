@@ -19,12 +19,14 @@ public class DMVSimulator {
 			}
 		}
 		System.out.println("Calling number " + userNumber);
+
 		int miracle = (int)(Math.random() * 100);
 		if (miracle == 1) {
 			System.out.println("Your paperwork is in order, you are all set.");
 		}
 		else {
-			System.out.println("You don't even have the required paperwork, get outta my sight you shmuck.");
+			System.out.println("You don't even have the required paperwork, get outta my sight you shmuck. HAHAHAHAHAHA");
 		}
+
 	}
 }
