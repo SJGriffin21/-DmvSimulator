@@ -19,7 +19,7 @@ public class DMVSimulator {
 			}
 		}
 		System.out.println("Calling number " + userNumber);
-		System.out.println("You don't even have the required paperwork, get outta my sight you shmuck.");
+		System.out.println("You don't even have the required paperwork, get outta my sight you shmuck. HAHAHAHAHAHA");
 		
 	}
 }
